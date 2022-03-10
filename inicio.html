@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Início</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="scss/skin.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="./script/index.js"></script>
+</head>
+
+<body id="wrapper">
+
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+                        <a class="navbar-brand" href="#">
+                            <h1>MONIWEB</h1><span>AUXÍLIO A MONITORIA DE PROGRAMAÇÃO WEB</span></a>
+                    </div>
+                    <div id="navbar" class="collapse navbar-collapse navbar-right">
+                        <ul class="nav navbar-nav" class="active">
+                            <li><a href="inicio.html">Início</a></li>
+                            <li><a href="sobre.html">Sobre</a></li>
+                            <li><a href="monitoria.html">Monitoria</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('img/banner-slide-1.jpg');"></div>
+                <div class="carousel-caption slide-up">
+                    <h1 class="banner_heading">BEM VINDO A <span>MONIWEB!</span></h1>
+                    <p class="banner_txt">Projeto de Programação Web do 5° período (noturno) de Análise e Desenvolvimento de Sistemas
+                        da faculdade FATEC Arthur de Azevedo.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="fill" style="background-image:url('img/banner-slide-2.jpg');"></div>
+                <div class="carousel-caption slide-up">
+                    <h1 class="banner_heading">BEM VINDO A <span>MONIWEB!</span></h1>
+                    <p class="banner_txt">Projeto de Programação Web do 5° período (noturno) de Análise e Desenvolvimento de Sistemas
+                         da faculdade FATEC Arthur de Azevedo.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="fill" style="background-image:url('img/banner-slide-3.jpg');"></div>
+                <div class="carousel-caption slide-up">
+                    <h1 class="banner_heading">BEM VINDO A <span>MONIWEB!</span></h1>
+                    <p class="banner_txt">Projeto de Programação Web do 5° período (noturno) de Análise e Desenvolvimento de Sistemas
+                        da faculdade FATEC Arthur de Azevedo.</p>
+                </div>
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> <i class="fa fa-angle-left" aria-hidden="true"></i>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"> <i class="fa fa-angle-right" aria-hidden="true"></i>
+            <span class="sr-only">Próximo</span>
+        </a>
+
+    </div>
+
+
+    <section id="bottom-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-6 col-xs-12 copyright">
+                    Desenvolvido por <a href="#">Isabella Pannunzio</a> e <a href="#">Camila Bernardino</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="panel">
+        <div id="panel-admin">
+            <div class="panel-admin-box">
+                <div id="tootlbar_colors">
+                    <button class="color" style="background-color:#1abac8;" onclick="mytheme(0)"></button>
+                    <button class="color" style="background-color:#ff8a00;" onclick="mytheme(1)"> </button>
+                    <button class="color" style="background-color:#b4de50;" onclick="mytheme(2)"> </button>
+                    <button class="color" style="background-color:#e54e53;" onclick="mytheme(3)"> </button>
+                    <button class="color" style="background-color:#1abc9c;" onclick="mytheme(4)"> </button>
+                    <button class="color" style="background-color:#159eee;" onclick="mytheme(5)"> </button>
+                </div>
+            </div>
+        </div>
+        <a class="open" href="#"><span><i class="fa fa-gear fa-spin"></i></span></a>
+    </div>
+    
+</html>
