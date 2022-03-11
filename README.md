@@ -7,6 +7,8 @@ Essa aplicação é um front-End de sistema de auxílio à monitoria de Programa
 # Tecnologias Utilizadas
 * HTML
 * CSS
+* PHP
+* JavaScript
 
 # Como Executar
 No diretório do programa, execute o arquivo "inicio.html".
