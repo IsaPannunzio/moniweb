@@ -13,6 +13,6 @@ Essa aplicação é um front-End de sistema de auxílio à monitoria de Programa
 * Apache
 
 # Como Executar
-No diretório do programa, execute o arquivo "inicio.html".
+No diretório do programa, execute o arquivo "inicio.html"
 
 
