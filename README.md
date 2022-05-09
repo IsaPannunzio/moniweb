@@ -2,7 +2,7 @@
 
 
 # Sobre
-Essa aplicação é um front-End de sistema de auxílio à monitoria de Programação Web. Foi desenvolvida no meu 5° semestre da faculdade de Análise e Desenvolvimento de Sistemas, por mim e pela aluna Camila Bernardino da Costa, como projeto final da matéria Programação Web, em 2021.
+Essa aplicação é um front-End de sistema de auxílio à monitoria de Programação Web. Foi desenvolvida no meu 5° semestre da faculdade de Análise e Desenvolvimento de Sistemas como projeto final da matéria Programação Web, em 2021.
 
 # Tecnologias Utilizadas
 * HTML
